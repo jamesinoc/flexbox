@@ -1,0 +1,21 @@
+.item{
+    border: solid;
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: large;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+}
+.item1{
+    order: 1;
+}
+.item3{
+    order:-1;
+}
